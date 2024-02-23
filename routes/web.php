@@ -44,6 +44,7 @@ Route::get('/', function () {
     return view('welcome', [
         'firstName' => $firstName,
         'lastName' => $lastName,
+        'comics' => $comics,
     ]);
     // return view('welcome', compact('firstName', 'lastName'));
 });
