@@ -1,5 +1,52 @@
+/* general*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+}
+.header-top {
+    height: 25px;
+    padding: 0 120px;
+    background-color: #0281F7;
+}
+
+.header-button {
+    height: 75px;
+}
+
+/* header*/
+.header-top p {
+    margin-right: 5px;
+}
+/* nav header*/
+nav ul li {
+    list-style: none;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    padding: 20px 0;
+}
+
+nav ul li a:hover {
+    color: #0281F7;
+    border-bottom: 1px solid #0281F7;
+}
+
+.input-header {
+    border-bottom: 2px solid #0281F7;
+    margin-left: 10px;
+}
+
+.input-header input{
+   border: none;
+   text-align: end;
 }
