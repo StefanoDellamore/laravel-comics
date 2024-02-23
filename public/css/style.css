@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+img {
+    height: 100%;
+}
+
 header {
     height: 100px;
 }
@@ -25,8 +29,7 @@ header {
 }
 /* nav header*/
 nav ul li {
-    list-style: none;
-    
+    list-style: none;    
 }
 
 nav ul li a{
@@ -49,4 +52,9 @@ nav ul li a:hover {
 .input-header input{
    border: none;
    text-align: end;
+}
+
+/* main*/
+.card-comic {
+    border: 1px dashed black;
 }
