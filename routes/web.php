@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $comics = config('comics');
+
     $firstName = 'Gino';
     $lastName = 'Paoli';
 
