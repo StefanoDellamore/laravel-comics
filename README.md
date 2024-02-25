@@ -138,3 +138,32 @@ return [
         "type" => "graphic novel",
     ]
 ];
+
+
+
+
+
+$linkMain = ['name': 'digital comics',
+            'image': '/img/buy-comics-digital-comics.png,
+                {
+                    "name": "digital comics",
+                    "image": "/img/buy-comics-digital-comics.png",
+                },
+                {
+                    "name": "dc merchandise",
+                    "image": "/img/buy-comics-merchandise.png",
+                },
+                {
+                    "name": "subcription",
+                    "image": "/img/buy-comics-subscriptions.png",
+                },
+                {
+                    "name": "comics shop locator",
+                    "image": "/img/buy-comics-shop-locator.png",
+                },
+                {
+                    "name": "dc powe visa",
+                    "image": "/img/buy-dc-power-visa.svg",
+                },
+                     
+            ],

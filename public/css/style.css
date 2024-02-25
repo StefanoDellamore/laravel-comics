@@ -88,3 +88,31 @@ nav ul li a:hover {
     border: none;
     padding: 10px 20px;
 }
+
+.container-link-img {
+    height: 50px;
+    width: 50px;
+}
+
+.container-link {
+    padding: 50px 0;
+    background-color: #0281F7;
+}
+.container-link-img img  {
+    width: 100%;
+}
+
+.container-link p {
+    margin: 0 10px;
+    color: white;
+}
+
+/* footer */
+
+.container-left {
+    width: 50%;
+}
+
+.container-right {
+    width: 50%;
+}
